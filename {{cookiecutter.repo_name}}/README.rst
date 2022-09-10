@@ -15,8 +15,6 @@ Folder Structure
   │
   ├── {{ cookiecutter.package_name }}/
   │    │
-  │    ├── cli.py - command line interface
-  │    ├── main.py - main script to start train/test
   │    │
   │    ├── base/ - abstract base classes
   │    │   ├── base_data_loader.py - abstract base class for data loaders
