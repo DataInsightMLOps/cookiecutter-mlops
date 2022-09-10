@@ -24,29 +24,21 @@ Folder Structure
   │    │   └── base_trainer.py - abstract base class for trainers
   │    │
   │    ├── data_loader/ - anything about data loading goes here
-  │    │   ├── augmentation.py
-  │    │   └── data_loaders.py
+  │    │   └── data_loaders...
   │    │
   │    ├── model/ - models, losses, and metrics
-  │    │   ├── loss.py
-  │    │   ├── metric.py
-  │    │   └── model.py
-  │    │
-  │    ├── trainer/ - trainers
-  │    │   └── trainer.py
+  │    │   ├── module...
   │    │
   │    └── utils/
-  │        ├── logger.py - class for train logging
-  │        ├── visualization.py - class for Tensorboard visualization support
-  │        └── saving.py - manages pathing for saving models + logs
+  │        ├── utils.py 
+  │        ├── rich_utils.py 
   │
-  ├── logging.yml - logging configuration
   │
   ├── data/ - directory for storing input data
   │
   ├── experiments/ - directory for storing configuration files
   │
-  ├── saved/ - directory for checkpoints and logs
+  ├── entrypoint.sh  - directory for checkpoints and logs
   │
   └── tests/ - tests folder
 
